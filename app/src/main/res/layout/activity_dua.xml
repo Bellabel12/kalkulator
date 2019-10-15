@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_dua"
+    android:background="#FFC107"
+    android:padding="32dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Kantin Kejujuran"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="10dp"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Nota Penjualan"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/txtnota" />
+
+        <TextView
+            android:id="@+id/txthari"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Hari"
+            android:textSize="10pt"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/txtbulan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/hasil_esteh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

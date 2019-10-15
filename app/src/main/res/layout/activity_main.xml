@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FFC107"
+    android:padding="32dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Harga"
+            android:gravity="center"
+            android:id="@+id/txtharga"
+            android:textStyle="bold"
+            android:textSize="14pt"
+            android:layout_marginBottom="8dp"
+            />
+        <TextView
+            android:background="@drawable/btn_putih"
+            android:id="@+id/txtjmlbarang"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="16pt"
+            android:text="0"
+           />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btnesteh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es Teh"
+            android:background="@drawable/btn_rounded"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnesjeruk"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es Jeruk"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btn_rounded"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btnnasipecel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Pecel"
+            android:background="@drawable/btn_rounded"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/btnnasirawon"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nasi Rawon"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btn_rounded"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btnbayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bayar"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btn_rounded"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/btnbatal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batal"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btn_rounded"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
